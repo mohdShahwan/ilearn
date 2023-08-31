@@ -1,47 +1,34 @@
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function Testemonials() {
   return (
-    <div className="album bg-body-secondary">
-      <div className="pricing-header py-5 pb-md-4 mx-auto text-center">
-        <h1 className="display-6 fw-normal text-body-emphasis">Testemonials</h1>
-        <hr className="mb-4 mx-5" />
-      </div>
-      <div className="container pb-5">
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div className="col">
-            <div className="card shadow-sm">
-              <div className="card-body">
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-            </div>
+    <div className="container">
+      <h1 className="text-center mt-5 mb-3">Testimonials</h1>
+      <hr className="my-4 w-50 m-auto" />
+      <div className="d-flex row justify-content-center gap-5">
+        <div className="card" style={{ width: "18rem" }}>
+          <div className="card-body">
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
           </div>
-          <div className="col">
-            <div className="card shadow-sm">
-              <div className="card-body">
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-            </div>
+        </div>
+
+        <div className="card" style={{ width: "18rem" }}>
+          <div className="card-body">
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
           </div>
-          <div className="col">
-            <div className="card shadow-sm">
-              <div className="card-body">
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-            </div>
+        </div>
+
+        <div className="card" style={{ width: "18rem" }}>
+          <div className="card-body">
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
           </div>
         </div>
       </div>
